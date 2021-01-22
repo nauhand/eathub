@@ -55,7 +55,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title mb-2">Ne manquer rien</h4>
-                                <p class="text-muted mb-0">Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam aenean elementum.</p>
+                                <p class="text-muted mb-0">Savourez chaque délices de vos meilleurs plats africains,Europe, Amérique et asiatique via l'application EAT HUB</p>
                             </div>
                         </div>
 
@@ -65,7 +65,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title mb-2">Recherche dynamique</h4>
-                                <p class="text-muted mb-0">Aenean tellus metus bibendum sed posuere ac pede amet augue turpis Pellentesque posuere.</p>
+                                <p class="text-muted mb-0">Nous avons un système de recherche en live et en temps réel de vos restaurant préférés et supermarchés</p>
                             </div>
                         </div>
 
@@ -75,7 +75,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title mb-2">Géolocalisation </h4>
-                                <p class="text-muted mb-0">Donec elit libero sodales nec volutpat a suscipit nec pellentesque velit pede primis.</p>
+                                <p class="text-muted mb-0">Nous sommes un service 100 % en ligne</p>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title mb-2">Variétés de choix</h4>
-                                <p class="text-muted mb-0">Pellentesque habitant morbi tristique senectus et turpis egestas dui magna posuere.</p>
+                                <p class="text-muted mb-0">Nous avons un menu bien rempli à vous couper le souffle avec plusieurs variétés de plats</p>
                             </div>
                         </div>
 
@@ -105,7 +105,8 @@
                             </div>
                             <div class="content">
                                 <h4 class="title mb-2">Livraison instantanée</h4>
-                                <p class="text-muted mb-0">In ac felis quis tortor malesuada pretium pellentesque sapien ipsum porta euismod ut mi.</p>
+                                <p class="text-muted mb-0">Des livreurs 100% fiable, rapide, et sûre
+                                    Nous vous assurons une expédition express</p>
                             </div>
                         </div>
 
@@ -115,7 +116,7 @@
                             </div>
                             <div class="content">
                                 <h4 class="title mb-2">Faites vous plaisir</h4>
-                                <p class="text-muted mb-0">Maecenas ullamcorper dui et placerat feugiat eros pede felis nunc lorem Sed fermentum.</p>
+                                <p class="text-muted mb-0">Juste en utilisant votre Smartphone.</p>
                             </div>
                         </div>
                     </div>
