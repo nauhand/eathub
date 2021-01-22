@@ -11,6 +11,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta content="Eathub" name="author" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- favicon -->
     <link rel="shortcut icon" href="{{ secure_asset('/') }}eathub/images/logo.png">
     <!-- Bootstrap -->
