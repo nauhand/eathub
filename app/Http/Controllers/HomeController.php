@@ -51,7 +51,7 @@ class HomeController extends Controller
         $password = bcrypt($request->input('password'));
         $id = $this->generateRandomString();
 
-        $response = Http::post('http://207.244.233.27:8002/user/create', [
+        $response = Http::post('https://backends.x-earth.com/user/create', [
             'Id' => $id,
             'firstname' => $request->input('firstname'),
             'lastname' => $request->input('lastname'),
