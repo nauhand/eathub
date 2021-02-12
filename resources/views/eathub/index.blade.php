@@ -298,7 +298,7 @@
                 <div class="col-lg-12">
                     <div class="custom-form mb-sm-30">
                         <div id="message"></div>
-                        <form method="post" action="{{ route('store') }}" name="contact-form" id="form">
+                        <form class="insert" action="{{ route('store') }}" enctype="multipart/form-data" method="POST" autocomplete="on">
                             @csrf
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
