@@ -39,36 +39,6 @@ class HomeController extends Controller
 
     public function store(Request $request)
     {
-        $this->validate($request,[
-            'firstname' => ['required', 'string', 'max:255'],
-            'lastname' => ['required', 'string', 'max:255'],
-            'address' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email'],
-            'number' => ['required', 'digits_between:8,8'],
-            'password' => ['required', 'string', 'min:8'],
-        ]);
-
-        $password = bcrypt($request->input('password'));
-        $id = $this->generateRandomString();
-
-        $response = Http::post('https://backends.x-earth.com/user/create', [
-            'Id' => $id,
-            'firstname' => $request->input('firstname'),
-            'lastname' => $request->input('lastname'),
-            'email' => $request->input('email'),
-            'number' => '+225'.$request->input('number'),
-            'address' => $request->input('address'),
-            'password' => $password,
-        ]);
-
-        if($response->successful() == true)
-        {
-            toastr()->success('Vous avez été enregistré avec succès !', 'Hoora !');
-            return back();
-        }else
-        {
-            toastr()->warning("Vous n'avez pas été enregistré car une erreur s'est produite, veuillez réessayer !", 'Zut !');
-            return back();
-        }
+        dd($request->all());
     }
 }
