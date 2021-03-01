@@ -289,101 +289,31 @@
                 <div class="col-12">
                     <div class="section-title text-center">
                         <i class="mdi mdi-phone text-custom h2"></i>
-                        <h4 class="title text-uppercase mt-3 mb-5">Pré enregistrez-vous maintenant</h4>
+                        <h4 class="title text-uppercase mt-3 mb-5">Contactez nous</h4>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
 
             <div class="row justify-content-center mt-4 pt-2">
                 <div class="col-lg-12">
-                    <div class="custom-form mb-sm-30">
-                        <div id="message"></div>
-                        <form class="insert" action="{{ route('store') }}" enctype="multipart/form-data" method="POST" autocomplete="on">
-                            @csrf
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group position-relative mb-4">
-                                        <input name="firstname" id="name" type="text" class="form-control @error('firstname') is-invalid @enderror" placeholder="Nom :">
-                                    </div>
-                                    @error('firstname')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div><!--end col-->
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group position-relative mb-4">
-                                        <input name="lastname" id="name" type="text" class="form-control @error('lastname') is-invalid @enderror" placeholder="Prénom(s) :">
-                                    </div>
-                                    @error('lastname')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div><!--end col-->
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group position-relative mb-4">
-                                        <input name="email" id="email" type="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email :">
-                                    </div>
-                                    @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div><!--end col-->
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group position-relative mb-4">
-                                        <input name="number" id="name" type="text" class="form-control @error('number') is-invalid @enderror" placeholder="Téléphone :">
-                                    </div>
-                                    @error('number')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div><!--end col-->
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group position-relative mb-4">
-                                        <select class="form-control" id="exampleFormControlSelect1" name="address">
-                                            <option selected disabled>-- choisir votre localité --</option>
-                                            <option value="Plateau">Plateau</option>
-                                            <option value="Abobo">Abobo</option>
-                                            <option value="Adjamé">Adjamé</option>
-                                            <option value="Attécoubé">Attécoubé</option>
-                                            <option value="Cocody">Cocody</option>
-                                            <option value="Koumassi">Koumassi</option>
-                                            <option value="Marcory">Marcory</option>
-                                            <option value="Port-Bouët">Port-Bouët</option>
-                                            <option value="Treichville">Treichville</option>
-                                            <option value="Yopougon">Yopougon</option>
-                                          </select>
-                                    </div>
-                                    @error('address')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div><!--end col-->
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group position-relative mb-4">
-                                        <input name="password" id="name" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Mot de passe :">
-                                    </div>
-                                    @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div><!--end col-->
-                            </div><!--end row-->
-
-                            <div class="row">
-                                <div class="col-sm-12 text-center">
-                                    <input type="submit" id="go" name="go" class="submitBnt btn btn-custom w-100" value="S'enregistrer">
-                                </div><!--end col-->
-                            </div><!--end row-->
-                        </form><!--end form-->
-                    </div><!--end custom-form-->
-                </div><!--end col-->
-            </div><!--end row-->
+                    <div class="row">
+                        <div class="col-md-6 float-right">
+                            <a href="https://www.facebook.com/XearthCi">
+                                <i class="fab fa-facebook float-right" style="font-size:50px;"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="http://xearth.in/">
+                                <i class="fas fa-globe" style="font-size: 50px;"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-12 text-center mt-4">
+                            <label for="">Cel : +225 0709638171 </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end row-->
         </div><!--end container-->
     </section><!--end section-->
     <!-- Contact End -->

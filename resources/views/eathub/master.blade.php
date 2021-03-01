@@ -83,7 +83,7 @@
                     </li><!--end nav item-->
                 </ul><!--end navbar nav-->
                 <div>
-                    <a href="#contact" class="login-button mouse-down ml-3">S'enregistrer</a>
+                    <a href="#contact" class="login-button mouse-down ml-3">Contactez nous</a>
                 </div><!--end login button-->
             </div><!--end collapse-->
         </div><!--end container-->
