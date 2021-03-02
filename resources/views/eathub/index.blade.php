@@ -298,12 +298,12 @@
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-md-6 float-right">
-                            <a href="https://www.facebook.com/XearthCi">
+                            <a href="https://www.facebook.com/EAT-HUB-103696875015487/?ref=bookmarks" target="_blank">
                                 <i class="fab fa-facebook float-right" style="font-size:50px;"></i>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="http://xearth.in/">
+                            <a href="http://xearth.in/" target="_blank">
                                 <i class="fas fa-globe" style="font-size: 50px;"></i>
                             </a>
                         </div>
