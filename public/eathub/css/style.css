@@ -28,7 +28,7 @@
 
 .btn.btn-custom {
   color: #ffffff;
-  background: #e59e04;
+  background: #f83637;
 }
 
 .btn.btn-custom:hover, .btn.btn-custom:focus, .btn.btn-custom:active, .btn.btn-custom.active, .btn.btn-custom.focus {
@@ -119,7 +119,7 @@ p {
 }
 
 .text-custom {
-  color: #e49e00;
+  color: #f83637;
 }
 
 .bg-custom {
@@ -180,7 +180,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(45deg, #e49e00, #e49e00);
+  background-image: linear-gradient(45deg, #f83637, #f83637);
   z-index: 9999999;
 }
 
@@ -420,11 +420,11 @@ p {
 }
 
 .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
-  color: #e49e00 !important;
+  color: #f83637 !important;
 }
 
 .navbar-custom .navbar-nav li.active a {
-  color: #e49e00 !important;
+  color: #f83637 !important;
 }
 
 .nav-sticky.navbar-custom {
@@ -449,11 +449,11 @@ p {
 }
 
 .nav-sticky.navbar-custom .navbar-nav li a:hover, .nav-sticky.navbar-custom .navbar-nav li a:active {
-  color: #e49e00 !important;
+  color: #f83637 !important;
 }
 
 .nav-sticky.navbar-custom .navbar-nav li.active a {
-  color: #e49e00 !important;
+  color: #f83637 !important;
 }
 
 .nav-sticky.navbar-custom.sticky-light {
@@ -474,7 +474,7 @@ p {
 
 .login-button {
   color: #ffffff;
-  background-color: #e49e00;
+  background-color: #f83637;
   text-transform: uppercase;
   font-size: 13px;
   -webkit-transition: all 0.5s;
@@ -1055,8 +1055,8 @@ p {
   line-height: 31px;
   display: none;
   color: #ffffff;
-  background-color: #e59e04;
-  border: 1px solid #e59e04;
+  background-color: #f83637;
+  border: 1px solid #f83637;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   border-radius: 30px;
