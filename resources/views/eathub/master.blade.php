@@ -13,24 +13,24 @@
     <meta content="Eathub" name="author" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ asset('/') }}eathub/images/eat-hub.png">
+    <link rel="shortcut icon" href="{{ secure_asset('/') }}eathub/images/eat-hub.png">
     <!-- Bootstrap -->
-    <link href="{{ asset('/') }}eathub/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('/') }}eathub/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Magnific -->
-    <link href="{{ asset('/') }}eathub/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('/') }}eathub/css/magnific-popup.css" rel="stylesheet" type="text/css" />
     <!-- Icon -->
-    <link href="{{ asset('/') }}eathub/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('/') }}eathub/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('/') }}eathub/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('/') }}eathub/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" />
     <!-- SLICK SLIDER -->
-    <link rel="stylesheet" href="{{ asset('/') }}eathub/css/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="{{ asset('/') }}eathub/css/owl.theme.css"/>
-    <link rel="stylesheet" href="{{ asset('/') }}eathub/css/owl.transitions.css"/>
+    <link rel="stylesheet" href="{{ secure_asset('/') }}eathub/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="{{ secure_asset('/') }}eathub/css/owl.theme.css"/>
+    <link rel="stylesheet" href="{{ secure_asset('/') }}eathub/css/owl.transitions.css"/>
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="{{ asset('/') }}eathub/css/swiper.min.css">
+    <link rel="stylesheet" href="{{ secure_asset('/') }}eathub/css/swiper.min.css">
     <!-- Animation -->
-    <link rel="stylesheet" href="{{ asset('/') }}eathub/css/aos.css">
+    <link rel="stylesheet" href="{{ secure_asset('/') }}eathub/css/aos.css">
     <!-- Custom Css -->
-    <link href="{{ asset('/') }}eathub/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('/') }}eathub/css/style.css" rel="stylesheet" type="text/css" />
     @toastr_css
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
@@ -63,8 +63,8 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <!-- Approze -->
-                <img src="{{ asset('/') }}eathub/images/logo-eat-hub.png" class="l-dark" height="90" alt="">
-                <img src="{{ asset('/') }}eathub/images/logo-eat-hub.png" class="l-light" height="90" alt="">
+                <img src="{{ secure_asset('/') }}eathub/images/logo-eat-hub.png" class="l-dark" height="90" alt="">
+                <img src="{{ secure_asset('/') }}eathub/images/logo-eat-hub.png" class="l-light" height="90" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="mdi mdi-menu"></span>
@@ -119,28 +119,28 @@
     </a>
     <!-- Back to top -->
     <!-- javascript -->
-    <script src="{{ asset('/') }}eathub/js/jquery.min.js"></script>
-    <script src="{{ asset('/') }}eathub/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('/') }}eathub/js/jquery.easing.min.js"></script>
-    <script src="{{ asset('/') }}eathub/js/scrollspy.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/jquery.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/jquery.easing.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/scrollspy.min.js"></script>
     <!-- SLIDER -->
-    <script src="{{ asset('/') }}eathub/js/owl.carousel.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/owl.carousel.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="{{ asset('/') }}eathub/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/jquery.magnific-popup.min.js"></script>
     <!-- Contact -->
-    <script src="{{ asset('/') }}eathub/js/contact.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/contact.js"></script>
     <!-- Counter -->
-    <script src="{{ asset('/') }}eathub/js/counter.init.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/counter.init.js"></script>
     <!-- Swiper JS -->
-    <script src="{{ asset('/') }}eathub/js/swiper.min.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/swiper.min.js"></script>
     <!-- Animation JS -->
-    <script src="{{ asset('/') }}eathub/js/aos.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/aos.js"></script>
     <!-- Animation JS -->
-    <script src="{{ asset('/') }}eathub/js/jquery.nicescroll.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/jquery.nicescroll.js"></script>
     <!-- Plugin init -->
-    <script src="{{ asset('/') }}eathub/js/plugin.init.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/plugin.init.js"></script>
     <!-- Main Js -->
-    <script src="{{ asset('/') }}eathub/js/app.js"></script>
+    <script src="{{ secure_asset('/') }}eathub/js/app.js"></script>
     @jquery
     @toastr_js
     @toastr_render

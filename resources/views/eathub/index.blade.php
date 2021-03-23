@@ -2,7 +2,7 @@
 
     @section('content')
      <!-- HOME START-->
-     <section class="bg-home" style="background-image:url('{{ asset('/') }}eathub/images/18.jpeg')" id="home">
+     <section class="bg-home" style="background-image:url('{{ secure_asset('/') }}eathub/images/18.jpeg')" id="home">
         <div class="home-center">
             <div class="home-desc-center">
                 <div class="container">
@@ -15,15 +15,15 @@
                             </div>
                             <div class="col-md-10">
                                     <ul class="list-unstyled mb-0 app-download">
-                                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="{{ asset('/') }}eathub/images/apple.png" class="img-fluid mt-2" alt=""></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="{{ asset('/') }}eathub/images/google.png" class="img-fluid mt-2" alt=""></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="{{ secure_asset('/') }}eathub/images/apple.png" class="img-fluid mt-2" alt=""></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="{{ secure_asset('/') }}eathub/images/google.png" class="img-fluid mt-2" alt=""></a></li>
                                     </ul>
                             </div><!--end col-->
                         </div><!--end col-->
 
                         <div class="col-lg-5 col-md-6 mt-4 pt-2">
                             <div class="home-img text-md-right">
-                                <img src="{{ asset('/') }}eathub/images/iphone1.png" class="img-fluid mover-img" alt="">
+                                <img src="{{ secure_asset('/') }}eathub/images/iphone1.png" class="img-fluid mover-img" alt="">
                             </div>
                         </div><!--end col-->
                     </div><!--end row-->
@@ -83,7 +83,7 @@
 
                 <div class="col-lg-4 mt-4 pt-2 core-service-img">
                     <div class="ml-lg-4 mr-lg-4">
-                        <img src="{{ asset('/') }}eathub/images/iphone2.png" class="img-fluid mx-auto" data-aos="zoom-in-down" alt="" style="max-width: 350px;">
+                        <img src="{{ secure_asset('/') }}eathub/images/iphone2.png" class="img-fluid mx-auto" data-aos="zoom-in-down" alt="" style="max-width: 350px;">
                     </div>
                 </div><!--end col-->
 
@@ -127,14 +127,14 @@
     <!-- Feature End -->
 
     <!-- CTA Start -->
-    <section class="section bg-video bg-cta" style="background: url('{{ asset('/') }}eathub/images/cta.jpg') fixed center center;" id="video">
+    <section class="section bg-video bg-cta" style="background: url('{{ secure_asset('/') }}eathub/images/cta.jpg') fixed center center;" id="video">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-12">
                     <h5 class="text-light text-uppercase">Comment nous le faisons. Jouez et regardez!</h5>
                     <a href="https://youtu.be/65JrtwtTOdc" class="play-btn video-play-icon">
-                        <img src="{{ asset('/') }}eathub/images/icon/play-button-light.png" class="img-fluid mt-4 pt-2" alt="">
+                        <img src="{{ secure_asset('/') }}eathub/images/icon/play-button-light.png" class="img-fluid mt-4 pt-2" alt="">
                     </a>
                     <h6 class="text-white text-uppercase mt-3">Teaser de eat hub</h6>
                 </div><!--end col-->
@@ -159,7 +159,7 @@
                 <div class="col-md-4 mt-4 pt-2">
                     <div class="device-feature device-border text-center">
                         <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="{{ asset('/') }}eathub/images/icon/pc.png" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('/') }}eathub/images/icon/pc.png" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h4 class="title mb-3">PC / Ordinateur</h4>
@@ -171,7 +171,7 @@
                 <div class="col-md-4 mt-4 pt-2">
                     <div class="device-feature device-border text-center">
                         <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="{{ asset('/') }}eathub/images/icon/ipad.png" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('/') }}eathub/images/icon/ipad.png" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h4 class="title mb-3">Tablette / Ipad</h4>
@@ -183,7 +183,7 @@
                 <div class="col-md-4 mt-4 pt-2">
                     <div class="device-feature text-center">
                         <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="{{ asset('/') }}eathub/images/icon/app.png" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('/') }}eathub/images/icon/app.png" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h4 class="title mb-3">Smartphone</h4>
@@ -195,7 +195,7 @@
 
             <div class="row justify-content-center mt-5 pt-2">
                 <div class="col-9">
-                    <img src="{{ asset('/') }}eathub/images/mobile-hori.png" class="img-fluid mover-img" alt="">
+                    <img src="{{ secure_asset('/') }}eathub/images/mobile-hori.png" class="img-fluid mover-img" alt="">
                 </div><!--end col-->
             </div><!--end row-->
         </div><!--end container-->
@@ -203,7 +203,7 @@
     <!-- Available Feature Start -->
 
     <!-- START COUNTER -->
-    <section class="bg-counter" style="background: url('{{ asset('/') }}eathub/images/black.jpeg') fixed center center no-repeat;">
+    <section class="bg-counter" style="background: url('{{ secure_asset('/') }}eathub/images/black.jpeg') fixed center center no-repeat;">
         <div class="container">
             <div class="row" id="counter">
                 <div class="col-lg-4 col-md-6 p-4">
@@ -257,11 +257,11 @@
             <div class="row justify-content-center mt-4 pt-2">
                 <div class="col-12 swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="{{ asset('/') }}eathub/images/4.jpeg" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('/') }}eathub/images/5.jpeg" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('/') }}eathub/images/6.jpeg"class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('/') }}eathub/images/8.jpeg" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('/') }}eathub/images/9.jpeg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="{{ secure_asset('/') }}eathub/images/4.jpeg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="{{ secure_asset('/') }}eathub/images/5.jpeg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="{{ secure_asset('/') }}eathub/images/6.jpeg"class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="{{ secure_asset('/') }}eathub/images/8.jpeg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="{{ secure_asset('/') }}eathub/images/9.jpeg" class="img-fluid" alt=""></div>
                     </div>
                     <!-- Add Arrows  -->
                     <div class="swiper-button-next">
@@ -274,7 +274,7 @@
 
                 <div class="col-lg-5 col-md-5 col-12 mb-0 mb-md-5 mb-4 mb-sm-0">
                     <div class="screenshot-cell">
-                        <img src="{{ asset('/') }}eathub/images/sc/mo-sc.png" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('/') }}eathub/images/sc/mo-sc.png" class="img-fluid" alt="">
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
